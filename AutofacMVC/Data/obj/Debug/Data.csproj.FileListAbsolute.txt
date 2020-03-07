@@ -1,0 +1,6 @@
+C:\Users\luiandra1\source\repos\MVC5\Data\bin\Debug\Data.dll
+C:\Users\luiandra1\source\repos\MVC5\Data\bin\Debug\Data.pdb
+C:\Users\luiandra1\source\repos\MVC5\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\luiandra1\source\repos\MVC5\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\luiandra1\source\repos\MVC5\Data\obj\Debug\Data.dll
+C:\Users\luiandra1\source\repos\MVC5\Data\obj\Debug\Data.pdb
