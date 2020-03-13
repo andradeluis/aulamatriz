@@ -71,7 +71,25 @@ namespace AppProject
 
             #region [Identity]
 
-            using (var module = new Identity())
+            //using (var module = new Identity())
+            //{
+            //    module.Init();
+            //}
+
+            #endregion
+
+            #region [Serialization]
+
+            //using (var module = new BasicSerialization())
+            //{
+            //    module.Init();
+            //}
+
+            #endregion
+
+            #region [Events]
+
+            using (var module = new BasicEvents())
             {
                 module.Init();
             }
