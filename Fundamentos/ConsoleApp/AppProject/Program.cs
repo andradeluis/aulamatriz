@@ -15,7 +15,6 @@ namespace AppProject
             // 3. Delegates
             // 4. TaskParallel
 
-
             #region [Fundamentals]
 
             //using (var module = new Fundamentals())
@@ -36,10 +35,10 @@ namespace AppProject
 
             #region [TaskParallel]
 
-            using (var module = new BasicTasks())
-            {
-                module.Init();
-            }
+            //using (var module = new BasicTasks())
+            //{
+            //    module.Init();
+            //}
 
             #endregion
 
@@ -67,6 +66,15 @@ namespace AppProject
             //{
             //    module.Init();
             //}
+
+            #endregion
+
+            #region [Identity]
+
+            using (var module = new Identity())
+            {
+                module.Init();
+            }
 
             #endregion
 

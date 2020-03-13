@@ -38,7 +38,7 @@ namespace AppProject.Modules
 
         public void Init()
         {
-            var username = "l.andrade.l2@hotmail.com";
+            var username = "christian@hotmail.com";
             var password = "Tina12345*";
             var claimType = "given_name";
             var claimValue = "andrade";
@@ -47,6 +47,8 @@ namespace AppProject.Modules
 
             //var userStore = new UserStore<IdentityUser>();
             //var userManager = new UserManager<IdentityUser>(userStore);
+            //var roleStore = new RoleStore<IdentityRole>();
+            //var roleManager = new RoleManager<IdentityRole, string>(roleStore);
 
             //// 6. Create an user
             //var creationResult = userManager.Create(new IdentityUser(username), password);
@@ -62,6 +64,11 @@ namespace AppProject.Modules
             //// 8. Check password
             //var isMatch = userManager.CheckPassword(user, password);
             //Console.WriteLine("Password Match: {0}", isMatch);
+
+            //// 9. Crear role
+            //roleManager.Create(new IdentityRole("Admin"));
+
+            //userManager.AddToRoles(user.Id, "Admin");
 
             #endregion
 
@@ -175,6 +182,39 @@ namespace AppProject.Modules
             }
 
         }
+
+        //public class CustoRoleStore : IRoleStore<CustomRole>
+        //{
+        //    public Task CreateAsync(CustomRole role)
+        //    {
+        //        throw new NotImplementedException();
+        //    }
+
+        //    public Task DeleteAsync(CustomRole role)
+        //    {
+        //        throw new NotImplementedException();
+        //    }
+
+        //    public void Dispose()
+        //    {
+        //        throw new NotImplementedException();
+        //    }
+
+        //    public Task<CustomRole> FindByIdAsync(string roleId)
+        //    {
+        //        throw new NotImplementedException();
+        //    }
+
+        //    public Task<CustomRole> FindByNameAsync(string roleName)
+        //    {
+        //        throw new NotImplementedException();
+        //    }
+
+        //    public Task UpdateAsync(CustomRole role)
+        //    {
+        //        throw new NotImplementedException();
+        //    }
+        //}
 
         #endregion
     }

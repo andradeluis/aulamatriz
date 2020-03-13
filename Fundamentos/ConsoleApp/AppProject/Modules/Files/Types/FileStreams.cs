@@ -16,8 +16,8 @@ namespace AppProject.Modules.Files.Types
         private string fileFullPath = string.Empty;
         private string streamDirectoryName = "StreamDirectory";
         private string streamDirectoryFullPath = string.Empty;
-        private string temporalFilePath = @"C:\\inetpub\\wwwroot\\";
-        //private string temporalFilePath = AppDomain.CurrentDomain.BaseDirectory;
+        private string streamFileFullPath = string.Empty;
+        private string temporalFilePath = AppDomain.CurrentDomain.BaseDirectory;
 
         //Encodings:
         //UTF7
@@ -28,14 +28,15 @@ namespace AppProject.Modules.Files.Types
 
         public FileStreams() : base(new ConsolePrinter())
         {
-
             _printer = new ConsolePrinter();
             fileFullPath = Path.Combine(appPath + file);
             streamDirectoryFullPath = Path.Combine(temporalFilePath, streamDirectoryName);
+            streamFileFullPath = Path.Combine(streamDirectoryFullPath, "NewFile.txt");
         }
 
         public void Init()
         {
+            Directory.CreateDirectory(streamDirectoryFullPath);
             //CreateFolderAndGrantAccess();
             UpperCaseFileContent();
             UpperCaseFileLine();
@@ -47,7 +48,6 @@ namespace AppProject.Modules.Files.Types
 
         private void CreateFolderAndGrantAccess()
         {
-            Directory.CreateDirectory(streamDirectoryFullPath);
             DirectoryInfo dInfo = new DirectoryInfo(streamDirectoryFullPath);
             DirectorySecurity dSecurity = dInfo.GetAccessControl();
             dSecurity.AddAccessRule(new FileSystemAccessRule(new SecurityIdentifier(WellKnownSidType.WorldSid, null), FileSystemRights.FullControl, InheritanceFlags.ObjectInherit | InheritanceFlags.ContainerInherit, PropagationFlags.NoPropagateInherit, AccessControlType.Allow));
@@ -58,22 +58,22 @@ namespace AppProject.Modules.Files.Types
         {
             string originalText = File.ReadAllText(fileFullPath);
             string processedText = originalText.ToUpperInvariant();
-            File.WriteAllText(streamDirectoryFullPath, processedText);
+            File.WriteAllText(streamFileFullPath, processedText);
         }
 
         private void UpperCaseFileLine()
         {
             string[] lines = File.ReadAllLines(fileFullPath);
             lines[1] = lines[1].ToUpperInvariant();
-            File.WriteAllLines(streamDirectoryFullPath, lines);
+            File.WriteAllLines(streamFileFullPath, lines);
         }
 
         private void ReadSpecificEncoding()
         {
-            string fileText = File.ReadAllText(fileFullPath, Encoding.UTF8);
+            string fileText = File.ReadAllText(streamFileFullPath, Encoding.UTF8);
             _printer.Print(fileText);
 
-            string[] fileLines = File.ReadAllLines(fileFullPath, Encoding.UTF8);
+            string[] fileLines = File.ReadAllLines(streamFileFullPath, Encoding.UTF8);
 
             foreach (var line in fileLines)
             {
@@ -86,10 +86,10 @@ namespace AppProject.Modules.Files.Types
             string content = "This is my content";
             string[] lines = new string[]{ "This", "is", "my", "content" };
 
-            var fullFile1Path = Path.Combine(streamDirectoryFullPath, "file1");
+            var fullFile1Path = Path.Combine(streamDirectoryFullPath, "file1.txt");
             File.WriteAllText(fullFile1Path, content, Encoding.UTF8);
 
-            var fullFile2Path = Path.Combine(streamDirectoryFullPath, "file2");
+            var fullFile2Path = Path.Combine(streamDirectoryFullPath, "file2.txt");
             File.WriteAllLines(fullFile2Path, lines, Encoding.UTF8);
         }
 
@@ -98,10 +98,10 @@ namespace AppProject.Modules.Files.Types
             string contentToBeAdded = "This is my new content";
             string[] linesToBeAdded = new string[] { "This", "is", "my", "new", "content" };
 
-            var fullFile1Path = Path.Combine(streamDirectoryFullPath, "file1");
+            var fullFile1Path = Path.Combine(streamDirectoryFullPath, "file1.txt");
             File.AppendAllText(fullFile1Path, contentToBeAdded);
 
-            var fullFile2Path = Path.Combine(streamDirectoryFullPath, "file2");
+            var fullFile2Path = Path.Combine(streamDirectoryFullPath, "file2.txt");
             File.AppendAllLines(fullFile2Path, linesToBeAdded);
         }
 
@@ -110,10 +110,10 @@ namespace AppProject.Modules.Files.Types
             string contentToBeAdded = "This is my new content";
             string[] linesToBeAdded = new string[] { "This", "is", "my", "new", "content" };
 
-            var fullFile1Path = Path.Combine(streamDirectoryFullPath, "file1");
+            var fullFile1Path = Path.Combine(streamDirectoryFullPath, "file1B.txt");
             File.AppendAllText(fullFile1Path, contentToBeAdded, Encoding.UTF8);
 
-            var fullFile2Path = Path.Combine(streamDirectoryFullPath, "file2");
+            var fullFile2Path = Path.Combine(streamDirectoryFullPath, "file2B.txt");
             File.AppendAllLines(fullFile2Path, linesToBeAdded, Encoding.UTF8);
         }
 

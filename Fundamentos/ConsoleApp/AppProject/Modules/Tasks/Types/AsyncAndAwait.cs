@@ -104,7 +104,7 @@ namespace AppProject.Modules.Tasks.Types
         {
             // This method runs asynchronously.
             int t = await Task.Run(() => Allocate());
-            Console.WriteLine("Compute: " + t);
+            Console.WriteLine("Compute: " + t + 1);
         }
 
         private static int Allocate()
@@ -113,7 +113,7 @@ namespace AppProject.Modules.Tasks.Types
             int size = 0;
             for (int z = 0; z < 100; z++)
             {
-                for (int i = 0; i < 1000000; i++)
+                for (int i = 0; i < 1000; i++)
                 {
                     string value = i.ToString();
                     size += value.Length;
@@ -140,7 +140,7 @@ namespace AppProject.Modules.Tasks.Types
         {
             // Run a Task that calls a method, then calls another method with ContinueWith.
             int result = await Task.Run(() => GetSum(count))
-                .ContinueWith(task => MultiplyNegative1(task));
+                .ContinueWith(x => MultiplyNegative1(x));
             Console.WriteLine("Run2Methods result: " + result);
         }
 
@@ -210,12 +210,11 @@ namespace AppProject.Modules.Tasks.Types
             var processLines = loadLinesTask.ContinueWith(t =>
             {
                 var lines = t.Result;
-                
                 Console.WriteLine("The file lines were received");
                 
             }, TaskContinuationOptions.OnlyOnRanToCompletion);
 
-            loadLinesTask.ContinueWith(t =>
+            processLines.ContinueWith(t =>
             {
                 Console.WriteLine("Something is wrong");
             }, TaskContinuationOptions.OnlyOnFaulted);

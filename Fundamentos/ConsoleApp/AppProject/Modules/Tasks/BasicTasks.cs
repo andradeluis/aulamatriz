@@ -7,7 +7,7 @@ namespace AppProject.Modules
 {
     public class BasicTasks : ModulesNestedBase, IModule
     {
-        public BasicTasks() : base(new ConsolePrinter(), new Collection<IModule>() { /*new AsyncAndAwait()*/ /*, new TaskParallel*/ new DataCollectionInParallel() })
+        public BasicTasks() : base(new ConsolePrinter(), new Collection<IModule>() { new AsyncAndAwait() /*, new TaskParallel(), new DataCollectionInParallel()*/ })
         {
 
         }

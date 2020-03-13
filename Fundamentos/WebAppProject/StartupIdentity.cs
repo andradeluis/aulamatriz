@@ -44,7 +44,8 @@ namespace WebAppProject
             app.CreatePerOwinContext<UserManager<IdentityUser>>((opt, context) => new UserManager<IdentityUser>(context.Get<UserStore<IdentityUser>>()));
             // Register the implementation of  SignInManager, for this we need to pass the current instance of the UserManager
             //app.CreatePerOwinContext((opt, context) => SignInManager<IdentityUser, string>(context.Get<UserManager<IdentityUser>>(), context.Authentication));
-            app.CreatePerOwinContext<SignInManager<IdentityUser, string>>((opt, context) => new SignInManager<IdentityUser, string>(context.Get<UserManager<IdentityUser>>(), context.Authentication));
+            app.CreatePerOwinContext<SignInManager<IdentityUser, string>>((opt, context) 
+                => new SignInManager<IdentityUser, string>(context.Get<UserManager<IdentityUser>>(), context.Authentication));
             // Register the implementation of the CookieAuthentication
             app.UseCookieAuthentication(new CookieAuthenticationOptions()
             {

@@ -2,12 +2,8 @@
 using AppProject.Core.Print;
 using System;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace AppProject.Modules.Files.Types
 {
@@ -112,6 +108,11 @@ namespace AppProject.Modules.Files.Types
                     Console.WriteLine($"Processing file: {fileName}");
                 }
             }
+        }
+
+        private void ProcessFile()
+        {
+            Console.WriteLine("Processing file");
         }
     }
 }

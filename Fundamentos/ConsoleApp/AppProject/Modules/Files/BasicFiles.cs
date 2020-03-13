@@ -8,7 +8,7 @@ namespace AppProject.Modules
 {
     public class BasicFiles : ModulesNestedBase, IModule
     {
-        public BasicFiles() : base(new ConsolePrinter(), new Collection<IModule>() { new FileManipulation(), new FileWatcher(), new FileStreams() })
+        public BasicFiles() : base(new ConsolePrinter(), new Collection<IModule>() { /*new FileManipulation(), new FileWatcher(),*/ new FileStreams() })
         {
 
         }

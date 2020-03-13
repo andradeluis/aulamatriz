@@ -50,7 +50,7 @@ namespace WebAppProject
 
                 // Start of code executed from request raiser to request handler
                 // Write code inside middleware 
-                await ctx.Response.WriteAsync("<p>On request raiser of literal middleware</p>");
+                //await ctx.Response.WriteAsync("<p>On request raiser of literal middleware</p>");
                 //Debug.WriteLine("On request raiser of literal middleware");
                 // End of code executed from request raiser to request handler
 
@@ -58,8 +58,8 @@ namespace WebAppProject
                 await next();
 
                 // Start of code executed from request handler to request raiser
-                await ctx.Response.WriteAsync("<p>On request handler of literal middleware</p>");
-                Debug.WriteLine("<p>On request handler of literal middleware</p>");
+                //await ctx.Response.WriteAsync("<p>On request handler of literal middleware</p>");
+                //Debug.WriteLine("<p>On request handler of literal middleware</p>");
                 // End of code executed from request handler to request raiser
             });
 
@@ -85,12 +85,12 @@ namespace WebAppProject
             // Start of code executed from request raiser to request handler
 
             // Get the ResponseBody Stream
-            var requestResponse = environment["owin.ResponseBody"] as Stream;
-            using (var writer = new StreamWriter(requestResponse))
-            {
-                // Write response
-                await writer.WriteAsync("<p>On request raiser of class middleware</p>");
-            }
+            //var requestResponse = environment["owin.ResponseBody"] as Stream;
+            //using (var writer = new StreamWriter(requestResponse))
+            //{
+            //    // Write response
+            //    await writer.WriteAsync("<p>On request raiser of class middleware</p>");
+            //}
             //Debug.WriteLine("On request raiser of class middleware");
             // End of code executed from request raiser to request handler
 
@@ -100,12 +100,12 @@ namespace WebAppProject
             // Start of code executed from request handler to request raiser 
 
             // Get the ResponseBody Stream
-            var handlerResponse = environment["owin.ResponseBody"] as Stream;
-            using (var writer = new StreamWriter(handlerResponse))
-            {
-                // Write response
-                await writer.WriteAsync("<p>On request handler of class middleware</p>");
-            }
+            //var handlerResponse = environment["owin.ResponseBody"] as Stream;
+            //using (var writer = new StreamWriter(handlerResponse))
+            //{
+            //    // Write response
+            //    await writer.WriteAsync("<p>On request handler of class middleware</p>");
+            //}
             //Debug.WriteLine("On request handler of class middleware");
             // End of code executed from request handler to request raiser 
 
@@ -137,26 +137,26 @@ namespace WebAppProject
             // Start of code executed from request raiser to request handler
 
             // Get the ResponseBody Stream
-            var requestResponse = environment["owin.ResponseBody"] as Stream;
-            using (var writer = new StreamWriter(requestResponse))
-            {
-                // Write response
-                await writer.WriteAsync("<p>On request raiser of <b>static</b> class middleware</p>");
-            }
+            //var requestResponse = environment["owin.ResponseBody"] as Stream;
+            //using (var writer = new StreamWriter(requestResponse))
+            //{
+            //    // Write response
+            //    await writer.WriteAsync("<p>On request raiser of <b>static</b> class middleware</p>");
+            //}
             //Debug.WriteLine("On request raiser of static class middleware");
             // End of code executed from request raiser to request handler
 
             // Invoke next middleware component
-            //await next.Invoke(environment);
+            await next.Invoke(environment);
 
             // Start of code executed from request handler to request raiser 
             // Get the ResponseBody Stream
-            var handlerResponse = environment["owin.ResponseBody"] as Stream;
-            using (var writer = new StreamWriter(handlerResponse))
-            {
-                //Write response
-                await writer.WriteAsync("<p>On request handler of <b>static</b> class middleware</p>");
-            }
+            //var handlerResponse = environment["owin.ResponseBody"] as Stream;
+            //using (var writer = new StreamWriter(handlerResponse))
+            //{
+            //    //Write response
+            //    await writer.WriteAsync("<p>On request handler of <b>static</b> class middleware</p>");
+            //}
             //Debug.WriteLine("On request handler of static class middleware");
             // End of code executed from request handler to request raiser 
 
