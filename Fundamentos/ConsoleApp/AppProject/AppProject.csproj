@@ -32,6 +32,24 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6887B8C5D475D24912AD824B49C805CDF81E3F22</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>AppProject_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>AppProject_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
@@ -52,6 +70,7 @@
     <Reference Include="System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\packages\System.Collections.Immutable.1.5.0\lib\netstandard2.0\System.Collections.Immutable.dll</HintPath>
     </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -69,6 +88,11 @@
     <Compile Include="Core\Module\ModulesNestedBase.cs" />
     <Compile Include="Core\Reflection\IObjectReflection.cs" />
     <Compile Include="Core\Reflection\ObjectReflection.cs" />
+    <Compile Include="Modules\Attributes\BasicAttributes.cs" />
+    <Compile Include="Modules\Attributes\Types\ObsoleteExampleAttribute.cs" />
+    <Compile Include="Modules\Attributes\Types\ConditionalExampleAttribute.cs" />
+    <Compile Include="Modules\Attributes\Types\SerializeExampleAttribute.cs" />
+    <Compile Include="Modules\Attributes\Types\CustomAttributes.cs" />
     <Compile Include="Modules\Delegates\Resources\Business\DepartmentModel.cs" />
     <Compile Include="Modules\Delegates\Resources\Business\EmployeeModel.cs" />
     <Compile Include="Modules\Delegates\Resources\InstanceProcedures.cs" />
@@ -117,9 +141,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="AppProject_TemporaryKey.pfx" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Modules\Attributes\Resources\" />
     <Folder Include="Modules\LinQ\Resources\" />
   </ItemGroup>
   <ItemGroup>

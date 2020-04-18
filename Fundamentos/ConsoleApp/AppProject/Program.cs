@@ -91,6 +91,15 @@ namespace AppProject
 
             using (var module = new BasicEvents())
             {
+                //module.Init();
+            }
+
+            #endregion
+
+            #region [Attributes]
+
+            using (var module = new BasicAttributes())
+            {
                 module.Init();
             }
 
