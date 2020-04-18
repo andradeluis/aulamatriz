@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dfq0W44Otm/IuHeR7AKijj5KX1gqqBS5jsxSPNNfcBdI56Ze5sH457HvWqcknKxlCqTQ7aiUb0sH3IYGxgnFNg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Luis\\Documents\\GitHub\\aulamatriz\\DDD\\SLN\\App.Infra.Bus\\App.Infra.Bus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luis\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

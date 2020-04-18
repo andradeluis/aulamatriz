@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "u3bMfONce5bDE6OGkwyoAd1HUqXjRIKdb3dTaBBRgbxqkMgQP8x2U9zNohm5/gAULa/nGQbWrHR5ZFtsGOKssg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Luis\\Documents\\GitHub\\aulamatriz\\DDD\\SLN\\App.Domain.Core\\App.Domain.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luis\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

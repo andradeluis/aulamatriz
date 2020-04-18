@@ -1,0 +1,15 @@
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\bin\Debug\netcoreapp3.1\App.Banking.Domain.dll
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\obj\Debug\netcoreapp3.1\App.Banking.Data.csprojAssemblyReference.cache
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\obj\Debug\netcoreapp3.1\App.Banking.Data.AssemblyInfoInputs.cache
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\obj\Debug\netcoreapp3.1\App.Banking.Data.AssemblyInfo.cs
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\bin\Debug\netcoreapp3.1\App.Banking.Data.deps.json
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\bin\Debug\netcoreapp3.1\App.Banking.Data.runtimeconfig.json
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\bin\Debug\netcoreapp3.1\App.Banking.Data.runtimeconfig.dev.json
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\bin\Debug\netcoreapp3.1\App.Banking.Data.dll
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\bin\Debug\netcoreapp3.1\App.Banking.Data.pdb
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\bin\Debug\netcoreapp3.1\App.Banking.Domain.pdb
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\obj\Debug\netcoreapp3.1\App.Banking.Data.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\obj\Debug\netcoreapp3.1\App.Banking.Data.csproj.CopyComplete
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\obj\Debug\netcoreapp3.1\App.Banking.Data.dll
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\obj\Debug\netcoreapp3.1\App.Banking.Data.pdb
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\obj\Debug\netcoreapp3.1\App.Banking.Data.genruntimeconfig.cache
