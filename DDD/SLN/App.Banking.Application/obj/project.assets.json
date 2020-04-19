@@ -2,23 +2,69 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "MediatR/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
       "App.Banking.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "App.Domain.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/App.Banking.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/App.Banking.Domain.dll": {}
         }
+      },
+      "App.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MediatR": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/App.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App.Domain.Core.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "MediatR/8.0.1": {
+      "sha512": "nqtv05FHNNNLmEv4QN9pRtmSLa0bnDPciOjLKpA/k5FZIVS72vPyY3/1lHQ9V/dcQSMA5ZLig62SyRk2cSKNBA==",
+      "type": "package",
+      "path": "mediatr/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "mediatr.8.0.1.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
     "App.Banking.Domain/1.0.0": {
       "type": "project",
       "path": "../App.Banking.Domain/App.Banking.Domain.csproj",
       "msbuildProject": "../App.Banking.Domain/App.Banking.Domain.csproj"
+    },
+    "App.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../App.Domain.Core/App.Domain.Core.csproj",
+      "msbuildProject": "../App.Domain.Core/App.Domain.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {

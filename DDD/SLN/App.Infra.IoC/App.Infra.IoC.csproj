@@ -14,6 +14,7 @@
     <ProjectReference Include="..\App.Banking.Domain\App.Banking.Domain.csproj" />
     <ProjectReference Include="..\App.Domain.Core\App.Domain.Core.csproj" />
     <ProjectReference Include="..\App.Infra.Bus\App.Infra.Bus.csproj" />
+    <ProjectReference Include="..\App.Transfer.Domain\App.Transfer.Domain.csproj" />
   </ItemGroup>
 
 </Project>

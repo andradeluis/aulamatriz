@@ -10,3 +10,5 @@ C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Application\obj\De
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Application\obj\Debug\netcoreapp3.1\App.Banking.Application.csproj.CopyComplete
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Application\obj\Debug\netcoreapp3.1\App.Banking.Application.dll
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Application\obj\Debug\netcoreapp3.1\App.Banking.Application.pdb
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Application\bin\Debug\netcoreapp3.1\App.Domain.Core.dll
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Application\bin\Debug\netcoreapp3.1\App.Domain.Core.pdb

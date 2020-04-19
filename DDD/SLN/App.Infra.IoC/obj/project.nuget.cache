@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QTmUTnVDlYB0bRtoqwk0Sq7fnU/REXcp+CQ7UKq6eSvlhze44CwlXjqXGmtWCaDLd6UQQKrDJBiM2lv6IBMQTA==",
+  "dgSpecHash": "oeN/q3RySqkJjCngY9u7EOhDeEmRg+YvbSr3de9cQdTkGFuUv8NNI4xnQ6a594oCSgiS1qlKtI8UthsxGEWhwg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Luis\\Documents\\GitHub\\aulamatriz\\DDD\\SLN\\App.Infra.IoC\\App.Infra.IoC.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,8 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Luis\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\Luis\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Luis\\.nuget\\packages\\rabbitmq.client\\5.1.2\\rabbitmq.client.5.1.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

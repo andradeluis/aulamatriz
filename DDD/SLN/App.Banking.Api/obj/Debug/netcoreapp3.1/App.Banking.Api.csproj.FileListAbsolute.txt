@@ -44,8 +44,6 @@ C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\bin\Debug\netc
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\obj\Debug\netcoreapp3.1\App.Banking.Api.csproj.CoreCompileInputs.cache
-C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\obj\Debug\netcoreapp3.1\App.Banking.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -61,10 +59,17 @@ C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\bin\Debug\netc
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\bin\Debug\netcoreapp3.1\App.Banking.Domain.pdb
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\bin\Debug\netcoreapp3.1\App.Domain.Core.pdb
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\bin\Debug\netcoreapp3.1\App.Infra.Bus.pdb
-C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\obj\Debug\netcoreapp3.1\App.Banking.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\obj\Debug\netcoreapp3.1\App.Banking.Api.csproj.CopyComplete
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\obj\Debug\netcoreapp3.1\staticwebassets\App.Banking.Api.StaticWebAssets.Manifest.cache
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\obj\Debug\netcoreapp3.1\staticwebassets\App.Banking.Api.StaticWebAssets.xml
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\obj\Debug\netcoreapp3.1\App.Banking.Api.dll
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\obj\Debug\netcoreapp3.1\App.Banking.Api.pdb
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\obj\Debug\netcoreapp3.1\App.Banking.Api.genruntimeconfig.cache
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\bin\Debug\netcoreapp3.1\App.Transfer.Domain.dll
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\bin\Debug\netcoreapp3.1\App.Transfer.Domain.pdb
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\obj\Debug\netcoreapp3.1\App.Banking.Api.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\obj\Debug\netcoreapp3.1\App.Banking.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Api\obj\Debug\netcoreapp3.1\App.Banking.Api.MvcApplicationPartsAssemblyInfo.cache

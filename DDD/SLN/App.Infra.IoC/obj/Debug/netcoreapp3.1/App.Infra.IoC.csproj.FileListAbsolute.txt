@@ -18,3 +18,5 @@ C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Infra.IoC\bin\Debug\netcor
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Infra.IoC\obj\Debug\netcoreapp3.1\App.Infra.IoC.csproj.CopyComplete
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Infra.IoC\obj\Debug\netcoreapp3.1\App.Infra.IoC.dll
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Infra.IoC\obj\Debug\netcoreapp3.1\App.Infra.IoC.pdb
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Infra.IoC\bin\Debug\netcoreapp3.1\App.Transfer.Domain.dll
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Infra.IoC\bin\Debug\netcoreapp3.1\App.Transfer.Domain.pdb

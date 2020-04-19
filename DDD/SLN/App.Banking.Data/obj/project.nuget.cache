@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8VXhysMOCGcK//RNCsLPlmWDSPX8pBK33OjTYEwJsGKkmGasWcw2vtIj8DdRmcZkDn5WjLiKrTizC4ZmstJTiA==",
+  "dgSpecHash": "AHt4mx6c4T9YZC3Wk9OaGpn9uzayvT6jYZ5sGhkijwcjUyxPKurAOn/AZGXjnEsARkSn7cT1RW3FzaKmKbi9nw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Luis\\Documents\\GitHub\\aulamatriz\\DDD\\SLN\\App.Banking.Data\\App.Banking.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Luis\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
     "C:\\Users\\Luis\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Luis\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Luis\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

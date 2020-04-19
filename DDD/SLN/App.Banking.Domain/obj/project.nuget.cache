@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FasRWVe2w10nGXbJRmNPCmnXjWXOOaaGBXo3kleQVNrt5INIP8dlV91KpID+iDmeh8FMW+gimubyvnV0OU7j3Q==",
+  "dgSpecHash": "mYpiv3GaOdN2uwaS5/Ed+1QAeO1wjxjxvJqqziRoqqfUDc8XH6y1VvDUtzsEW0JYwoWHxYpP4XmHk0o9pyPZIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Luis\\Documents\\GitHub\\aulamatriz\\DDD\\SLN\\App.Banking.Domain\\App.Banking.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Luis\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

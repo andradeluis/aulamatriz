@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/Liwsch/R4p/vFR6hk+7BBnkTE/r/KOzAzqhD4VFfirHeNVqP9o8PZGdqAgQtSmdnPvOjJXkK+t47VljjM2uzA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Luis\\Documents\\GitHub\\aulamatriz\\DDD\\SLN\\App.Transfer.Domain\\App.Transfer.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luis\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

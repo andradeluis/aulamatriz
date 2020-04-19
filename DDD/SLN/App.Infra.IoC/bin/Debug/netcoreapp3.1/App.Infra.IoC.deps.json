@@ -13,6 +13,7 @@
           "App.Banking.Domain": "1.0.0",
           "App.Domain.Core": "1.0.0",
           "App.Infra.Bus": "1.0.0",
+          "App.Transfer.Domain": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "3.1.3"
         },
         "runtime": {
@@ -270,6 +271,22 @@
         "dependencies": {
           "System.Security.AccessControl": "4.5.0",
           "System.Security.Principal.Windows": "4.5.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "RabbitMQ.Client/5.1.2": {
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.1.2.0"
+          }
         }
       },
       "runtime.native.System/4.3.0": {
@@ -866,6 +883,9 @@
         }
       },
       "App.Banking.Domain/1.0.0": {
+        "dependencies": {
+          "App.Domain.Core": "1.0.0"
+        },
         "runtime": {
           "App.Banking.Domain.dll": {}
         }
@@ -880,10 +900,22 @@
       },
       "App.Infra.Bus/1.0.0": {
         "dependencies": {
-          "App.Domain.Core": "1.0.0"
+          "App.Domain.Core": "1.0.0",
+          "MediatR": "8.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.3",
+          "Newtonsoft.Json": "12.0.3",
+          "RabbitMQ.Client": "5.1.2"
         },
         "runtime": {
           "App.Infra.Bus.dll": {}
+        }
+      },
+      "App.Transfer.Domain/1.0.0": {
+        "dependencies": {
+          "App.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "App.Transfer.Domain.dll": {}
         }
       }
     }
@@ -1068,6 +1100,20 @@
       "sha512": "sha512-+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
       "path": "microsoft.win32.registry/4.5.0",
       "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "RabbitMQ.Client/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xhj+un0pw4N7h37SZWptxl/NEv7f1RLHwZhXjqzkCm3w3IdbFJh+HjVyPaciD848BUYLGoEQzadx90nShsbs4Q==",
+      "path": "rabbitmq.client/5.1.2",
+      "hashPath": "rabbitmq.client.5.1.2.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",
@@ -1524,6 +1570,11 @@
       "sha512": ""
     },
     "App.Infra.Bus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "App.Transfer.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

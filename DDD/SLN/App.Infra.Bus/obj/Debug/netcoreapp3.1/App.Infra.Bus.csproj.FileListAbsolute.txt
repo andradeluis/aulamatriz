@@ -1,5 +1,4 @@
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Infra.Bus\obj\Debug\netcoreapp3.1\App.Infra.Bus.csprojAssemblyReference.cache
-C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Infra.Bus\obj\Debug\netcoreapp3.1\App.Infra.Bus.csproj.CoreCompileInputs.cache
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Infra.Bus\obj\Debug\netcoreapp3.1\App.Infra.Bus.AssemblyInfoInputs.cache
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Infra.Bus\obj\Debug\netcoreapp3.1\App.Infra.Bus.AssemblyInfo.cs
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Infra.Bus\bin\Debug\netcoreapp3.1\App.Infra.Bus.deps.json
@@ -10,3 +9,4 @@ C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Infra.Bus\bin\Debug\netcor
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Infra.Bus\obj\Debug\netcoreapp3.1\App.Infra.Bus.csproj.CopyComplete
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Infra.Bus\obj\Debug\netcoreapp3.1\App.Infra.Bus.dll
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Infra.Bus\obj\Debug\netcoreapp3.1\App.Infra.Bus.pdb
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Infra.Bus\obj\Debug\netcoreapp3.1\App.Infra.Bus.csproj.CoreCompileInputs.cache

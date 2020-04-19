@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dfq0W44Otm/IuHeR7AKijj5KX1gqqBS5jsxSPNNfcBdI56Ze5sH457HvWqcknKxlCqTQ7aiUb0sH3IYGxgnFNg==",
+  "dgSpecHash": "TO9AZTZ7dtTfst5zQX+cesbh3fIZyBAEOQGrcurpc0O/QneDb2JauKFxAWI5dUH5XerJOfrBFLNltyByxUKdFg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Luis\\Documents\\GitHub\\aulamatriz\\DDD\\SLN\\App.Infra.Bus\\App.Infra.Bus.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Luis\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
+    "C:\\Users\\Luis\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\Luis\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.3\\microsoft.extensions.dependencyinjection.abstractions.3.1.3.nupkg.sha512",
+    "C:\\Users\\Luis\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Luis\\.nuget\\packages\\rabbitmq.client\\5.1.2\\rabbitmq.client.5.1.2.nupkg.sha512"
   ],
   "logs": []
 }

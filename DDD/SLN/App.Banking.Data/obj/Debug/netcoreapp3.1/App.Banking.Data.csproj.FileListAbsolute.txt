@@ -13,3 +13,5 @@ C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\obj\Debug\net
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\obj\Debug\netcoreapp3.1\App.Banking.Data.dll
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\obj\Debug\netcoreapp3.1\App.Banking.Data.pdb
 C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\obj\Debug\netcoreapp3.1\App.Banking.Data.genruntimeconfig.cache
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\bin\Debug\netcoreapp3.1\App.Domain.Core.dll
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Banking.Data\bin\Debug\netcoreapp3.1\App.Domain.Core.pdb

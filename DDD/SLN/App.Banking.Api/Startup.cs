@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using App.Banking.Data.Context;
 using App.Infra.IoC;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -39,7 +40,7 @@ namespace App.Banking.Api
                 c.SwaggerDoc("v1", new OpenApiInfo() { Title = "Banking Api", Version = "v1" })
             );
 
-            //services.AddMediatR(typeof(Startup));
+            services.AddMediatR(typeof(Startup));
 
             RegisterServices(services);
         }

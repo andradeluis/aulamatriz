@@ -1,0 +1,12 @@
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Transfer.Domain\bin\Debug\netcoreapp3.1\App.Transfer.Domain.deps.json
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Transfer.Domain\bin\Debug\netcoreapp3.1\App.Transfer.Domain.dll
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Transfer.Domain\bin\Debug\netcoreapp3.1\App.Transfer.Domain.pdb
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Transfer.Domain\bin\Debug\netcoreapp3.1\App.Domain.Core.dll
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Transfer.Domain\bin\Debug\netcoreapp3.1\App.Domain.Core.pdb
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Transfer.Domain\obj\Debug\netcoreapp3.1\App.Transfer.Domain.csprojAssemblyReference.cache
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Transfer.Domain\obj\Debug\netcoreapp3.1\App.Transfer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Transfer.Domain\obj\Debug\netcoreapp3.1\App.Transfer.Domain.AssemblyInfoInputs.cache
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Transfer.Domain\obj\Debug\netcoreapp3.1\App.Transfer.Domain.AssemblyInfo.cs
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Transfer.Domain\obj\Debug\netcoreapp3.1\App.Transfer.Domain.csproj.CopyComplete
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Transfer.Domain\obj\Debug\netcoreapp3.1\App.Transfer.Domain.dll
+C:\Users\Luis\Documents\GitHub\aulamatriz\DDD\SLN\App.Transfer.Domain\obj\Debug\netcoreapp3.1\App.Transfer.Domain.pdb
